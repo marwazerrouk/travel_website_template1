@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(219, 137, 30);
+    font-family: emoji, sans-serif;
+    font-weight: bold;
+  }
+  li{
+    display: inline;
+    margin: 10px;
+    float: right;
+    
+  }
+p{
+    font-family: emoji, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    color: rgb(219, 137, 30);
+}
+  .header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+  }
+  .titre{
+    font-size: x-large;
+  }
+.container1{
+    height: 400px;
+    background-image:url("https://images.pexels.com/photos/1526246/pexels-photo-1526246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    width: 100%;
+}
+.explore{
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 120px;
+    font-size: 70px;
+    font-family:  fantasy, "Lucida Console", Courier, monospace;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+h4{
+    color: white;
+    position: relative;
+    top: 140px;
+    left: 120px;
+    white-space: keep-all;
+    line-height: 20px;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+.content{
+    width: 40%;
+}
+.gd_titre{
+    width: 800px;
+}
+.bouton{
+
+    height: 40px;
+    width: 145px;
+    letter-spacing: 2px;
+    color: white;
+    background: none;
+    border: 1px white solid;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: 160px;
+    left: 120px;
+}
+.grid_container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-columns: 50px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 550px;
+}
+h3{
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+.discover{
+    width: 350px;
+    font-family:  fantasy, "Lucida Console", Courier, monospace;
+    letter-spacing: 4px;
+    color: rgb(219, 137, 30);
+
+   
+}
+.span1{
+    width: 500px;
+    /* position: relative; */
+
+}
+.man{
+    /* position: relative; */
+    right: 150px;
+    top: 100px;
+}
+hr{
+    width: 25%;
+    float: left;
+    border: 1px rgb(219, 137, 30) solid;
+    position: relative;
+    top: 20px;
+}
+
+
+ .image1{
+    opacity: 0.2;
+    /* position: relative; */
+    /* top: -100px; */
+    /* height: 569px; */
+ }
+
+ h6{
+    position: relative;
+    top: 3px;
+ }
+ .message{
+    font-family:  fantasy, "Lucida Console", Courier, monospace;
+    font-size: larger;
+    letter-spacing: 5px;
+    text-align: center;
+ }
+ .bouton2{
+    color: white;
+    background-color: #fc4e2a;
+    border: 1px #fc4e2a solid;
+    height: 40px;
+    width: 145px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 43%;
+    cursor: pointer;
+ }
+ footer{
+    width: 100%;
+    height: 200px;
+ }
+.logos{
+    background-image: url("https://images.pexels.com/photos/746386/pexels-photo-746386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    opacity: 0.9;
+    height: 500px;
+}
+.logo1{
+    margin: 5px;
+    position: relative;
+    left: 850px;
+    top: 350px;
+}
+.choose{
+    font-family: fantasy;
+    font-weight: 50;
+    color: #fc4e2a;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 100px;   
+}
+.logo2{
+    margin: 20px;
+    position: relative;
+    top: 100px;
+    left: 40%;
+}
+
+
